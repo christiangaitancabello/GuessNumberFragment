@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/configFragment">
+
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.example.guessnumberfragment.iu.ConfigFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_config">
+        <action
+            android:id="@+id/action_configFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+        <action
+            android:id="@+id/action_configFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.guessnumberfragment.iu.PlayFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_play">
+        <action
+            android:id="@+id/action_playFragment_to_endGameFragment"
+            app:destination="@id/endGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endGameFragment"
+        android:name="com.example.guessnumberfragment.iu.EndGameFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_end_game">
+        <action
+            android:id="@+id/action_endGameFragment_to_configFragment"
+            app:destination="@id/configFragment"
+            app:popUpTo="@id/configFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.guessnumberfragment.iu.AboutUsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

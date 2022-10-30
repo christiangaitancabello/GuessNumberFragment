@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumberFragment</string>
+    <string name="etUserNameHint">Type the user name</string>
+    <string name="etNTriesHint">Number of tries</string>
+    <string name="btStartGameText">¡Play!</string>
+    <string name="etGuessNumberHint">Try a number</string>
+    <string name="btTryAgainText">Keep playing</string>
+    <string name="btTryText">Try</string>
+    <string name="IntroduceValidUser">Introduce a valid user name and number of tries</string>
+    <string name="btnPlayAgainText">Play again</string>
+    <string name="DefaultUser">Player</string>
+    <string name="NTriesMessage">Nº Tries:</string>
+    <string name="NeedNumberMessage">You have to introduce a number</string>
+    <string name="BiggerNumberMessage">The number is bigger</string>
+    <string name="LowerNumberMessage">The number is lower</string>
+    <string name="VictoryTitle">WIN</string>
+    <string name="VictoryMessage">Attempts to guess: </string>
+    <string name="LoseTitle">LOSE</string>
+    <string name="LoseMessage">The number was:</string>
+    <string name="aboutUsTitle">About us</string>
+    <string name="aboutUsSubtitle">IES Portada Alta student</string>
+    <string name="creatorContact">Contact: al.christian.gaitan.cabello@iesportada.org</string>
+</resources>

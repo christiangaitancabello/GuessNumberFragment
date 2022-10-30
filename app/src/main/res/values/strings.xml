@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GuessNumberFragment</string>
+    <string name="etUserNameHint">Escribe el nombre de usuario</string>
+    <string name="etNTriesHint">Número de intentos</string>
+    <string name="btStartGameText">¡A jugar!</string>
+    <string name="etGuessNumberHint">Prueba un número</string>
+    <string name="btTryAgainText">Seguir jugando</string>
+    <string name="btTryText">Probar</string>
+    <string name="btnPlayAgainText">Jugar de nuevo</string>
+    <string name="IntroduceValidUser">Introduzca nombre de usuario y número de intentos válido</string>
+    <string name="DefaultUser">Jugador</string>
+    <string name="DefaultNtries" translatable="false">10</string>
+    <string name="NTriesMessage">Nº Intentos:</string>
+    <string name="NeedNumberMessage">Se debe introducir un número</string>
+    <string name="BiggerNumberMessage">El número es mayor</string>
+    <string name="LowerNumberMessage">El número es menor</string>
+    <string name="VictoryTitle">VICTORIA</string>
+    <string name="VictoryMessage">Intentos para adivinar: </string>
+    <string name="LoseTitle">DERROTA</string>
+    <string name="LoseMessage">El número era:</string>
+    <string name="aboutUsTitle">Sobre nosotros</string>
+    <string name="creatorName" translatable="false">Christian Gaitán Cabello</string>
+    <string name="aboutUsSubtitle">Estudiante IES Portada Alta</string>
+    <string name="creatorContact">Contacto: al.christian.gaitan.cabello@iesportada.org</string>
+    <string name="creatorGitHubUser" translatable="false">christiangaitancabello</string>
+    <string name="creatorLinkedIn" translatable="false">christian-gaitán-cabello-423647252</string>
+</resources>
